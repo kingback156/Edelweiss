@@ -17,7 +17,7 @@ git clone https://github.com/kingback156/Edelweiss.git
 **1. Play the Audio:**
 - Click `"Play All"` to start both music and vocals together.
 - Use individual `Play` switches to start music or vocals separately.
-- 
+  
 **2. Pause the Audio:**
 - Click `"Pause All"` to pause both tracks.
 - Use individual `Stop` switches to pause music or vocals separately.
