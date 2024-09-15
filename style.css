@@ -40,13 +40,12 @@ body {
 }
 
 .credits-box {
-    padding: 10px; /* 内边距 */
-    font-family: "Georgia", "Times New Roman", serif; /* 设置字体 */
-    font-size: 20px; /* 设置字体大小 */
-    line-height: 1.2; /* 行间距 */
-    position: relative; /* 设置相对定位 */
-    right: -300px; /* 控制距离右边的位置，值越大越靠右 */
-    /* max-width: 300px; 设置最大宽度，避免过宽 */
+    padding: 10px;
+    font-family: "Georgia", "Times New Roman", serif; 
+    font-size: 20px; 
+    line-height: 1.2; 
+    position: relative; 
+    right: -300px; 
     margin-top: -20px;
 }
 
@@ -126,77 +125,71 @@ body {
 }
 
 .controls button {
-    font-size: 25px; /* 增大字体大小 */
-    font-weight: bold; /* 让字体加粗 */
-    padding: 10px 20px; /* 调整按钮的内边距，使按钮整体变大 */
-    border-radius: 8px; /* 使按钮的边框稍微圆角，提升美观度 */
-    cursor: pointer; /* 鼠标悬停时显示手型指针 */
+    font-size: 25px; 
+    font-weight: bold; 
+    padding: 10px 20px; 
+    border-radius: 8px; 
+    cursor: pointer; 
     width: 190px;
     margin-right: 20px
 }
 
-/* 可选的：为不同按钮设置不同样式 */
 #togglePlayPause {
-    background-color: #4CAF50; /* 设置按钮的背景色 */
-    color: white; /* 设置按钮文字颜色 */
+    background-color: #4CAF50; 
+    color: white; 
 }
 
 #resetAll {
-    background-color: #f44336; /* 设置另一个按钮的背景色 */
-    color: white; /* 设置按钮文字颜色 */
+    background-color: #f44336; 
+    color: white; 
     margin-right: 0;
 }
 
-/* 添加 hover 效果 */
 .controls button:hover {
-    opacity: 0.8; /* 鼠标悬停时使按钮稍微变暗，提升用户体验 */
+    opacity: 0.8; 
 }
 
 .audio-label {
-    font-family: "Times New Roman", Times, serif; /* 设置字体为 Times New Roman */
-    font-size: 30px; /* 增大字体 */
-    font-weight: bold; /* 字体加粗 */
-    margin-right: 20px; /* 标签与按钮之间的间距 */
+    font-family: "Times New Roman", Times, serif; 
+    font-size: 30px; 
+    font-weight: bold; 
+    margin-right: 20px; 
 }
 
-/* 图片容器样式 */
 #image-container {
     width: 100%;
     text-align: center;
 }
 
-/* 图片样式 */
+
 .image {
     width: 100%;
-    max-width: 1000px; /* 您可以根据需要调整此值 */
+    max-width: 1000px;
     height: auto;
     display: block;
     margin: 0 auto;
 }
 
-
-
-
 .styled-button {
-    background-color: #7d7c81; /* 按钮背景颜色 */
-    color: #fff; /* 文字颜色 */
-    padding: 10px 20px; /* 内边距，增大点击区域 */
-    font-size: 16px; /* 字体大小 */
-    border: none; /* 去除默认边框 */
-    border-radius: 5px; /* 圆角 */
-    cursor: pointer; /* 鼠标指针样式 */
-    transition: background-color 0.3s, transform 0.2s; /* 添加过渡效果 */
+    background-color: #7d7c81; 
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s, transform 0.2s; 
     margin-left: 50px;
     margin-top: 50px;
 }
 
 .styled-button:hover {
-    background-color: #1e40af; /* 悬停时的背景颜色 */
-    transform: translateY(-2px); /* 悬停时的轻微上移效果 */
+    background-color: #1e40af; 
+    transform: translateY(-2px); 
 }
 
 .styled-button:active {
-    transform: translateY(0); /* 点击时恢复位置 */
+    transform: translateY(0); 
 }
 
 .switch {
