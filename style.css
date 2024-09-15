@@ -1,0 +1,259 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-image: url('resource/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.title-container {
+    display: flex; 
+    align-items: center; 
+}
+
+.title-image {
+    height: 120px; 
+    max-height: 120px; 
+}
+
+.title {
+    text-align: center;
+    font-family: "Georgia", "Times New Roman", serif; 
+    font-size: 48px; 
+    margin: 0; 
+}
+
+.chinese-text {
+    font-family: "KaiTi", "STKaiti", "Kaiti SC", "Microsoft YaHei", sans-serif; 
+    font-size: 40px; 
+    font-weight: normal; 
+    display: block; 
+}
+
+.credits-box {
+    padding: 10px; /* 内边距 */
+    font-family: "Georgia", "Times New Roman", serif; /* 设置字体 */
+    font-size: 20px; /* 设置字体大小 */
+    line-height: 1.2; /* 行间距 */
+    position: relative; /* 设置相对定位 */
+    right: -300px; /* 控制距离右边的位置，值越大越靠右 */
+    /* max-width: 300px; 设置最大宽度，避免过宽 */
+    margin-top: -20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.audio-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.audio-row label {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.audio-row button {
+    margin-right: 10px;
+    width: 80px;
+    text-align: center;
+}
+
+.audio-row input[type="range"] {
+    margin-right: 10px;
+}
+
+.progress-bar {
+    width: 300px;
+    height: 10px;
+    margin-right: 10px;
+    background-color: #333;
+    position: relative;
+    border-radius: 5px;
+}
+
+.progress-bar div {
+    height: 100%;
+    background-color: lightgreen;
+    border-radius: 5px;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+.time-display {
+    margin-left: 10px;
+    width: 100px;
+    text-align: right;
+}
+
+.vexflow-container {
+    margin-top: 30px;
+    /* width: 700px; */
+    width: 100%;
+    height: 40%;
+    /* border: 1px solid black; */
+}
+
+.progress-bar-container {
+    width: 600px;
+    height: 10px; 
+    background-color: #333;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    background-color: lightgreen;
+    width: 0%;
+}
+
+.controls button {
+    font-size: 25px; /* 增大字体大小 */
+    font-weight: bold; /* 让字体加粗 */
+    padding: 10px 20px; /* 调整按钮的内边距，使按钮整体变大 */
+    border-radius: 8px; /* 使按钮的边框稍微圆角，提升美观度 */
+    cursor: pointer; /* 鼠标悬停时显示手型指针 */
+    width: 190px;
+    margin-right: 20px
+}
+
+/* 可选的：为不同按钮设置不同样式 */
+#togglePlayPause {
+    background-color: #4CAF50; /* 设置按钮的背景色 */
+    color: white; /* 设置按钮文字颜色 */
+}
+
+#resetAll {
+    background-color: #f44336; /* 设置另一个按钮的背景色 */
+    color: white; /* 设置按钮文字颜色 */
+    margin-right: 0;
+}
+
+/* 添加 hover 效果 */
+.controls button:hover {
+    opacity: 0.8; /* 鼠标悬停时使按钮稍微变暗，提升用户体验 */
+}
+
+.audio-label {
+    font-family: "Times New Roman", Times, serif; /* 设置字体为 Times New Roman */
+    font-size: 30px; /* 增大字体 */
+    font-weight: bold; /* 字体加粗 */
+    margin-right: 20px; /* 标签与按钮之间的间距 */
+}
+
+/* 图片容器样式 */
+#image-container {
+    width: 100%;
+    text-align: center;
+}
+
+/* 图片样式 */
+.image {
+    width: 100%;
+    max-width: 1000px; /* 您可以根据需要调整此值 */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+.styled-button {
+    background-color: #7d7c81; /* 按钮背景颜色 */
+    color: #fff; /* 文字颜色 */
+    padding: 10px 20px; /* 内边距，增大点击区域 */
+    font-size: 16px; /* 字体大小 */
+    border: none; /* 去除默认边框 */
+    border-radius: 5px; /* 圆角 */
+    cursor: pointer; /* 鼠标指针样式 */
+    transition: background-color 0.3s, transform 0.2s; /* 添加过渡效果 */
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.styled-button:hover {
+    background-color: #1e40af; /* 悬停时的背景颜色 */
+    transform: translateY(-2px); /* 悬停时的轻微上移效果 */
+}
+
+.styled-button:active {
+    transform: translateY(0); /* 点击时恢复位置 */
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 24px;
+    margin: 0 5px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.2s;
+    border-radius: 24px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: 0.2s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #3b82f6;
+}
+
+input:checked + .slider:before {
+    transform: translateX(75px);
+}
+
+.switch-label {
+    margin-right: 10px;
+    min-width: 60px;
+    text-align: left; 
+    display: inline-block; 
+}
+
+#notationProgressBar {
+    width: 0%;
+    height: 100%;
+    background-color: #f38a27;
+}
