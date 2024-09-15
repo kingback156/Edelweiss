@@ -5,7 +5,7 @@ This project is an interactive web application that plays the song "Edelweiss" w
 ## Setup Instructions
 **Step 1:** Clone the repository:
 ```
-git clone https://github.com/kingback156/Audio-analyse.git
+git clone https://github.com/kingback156/Edelweiss.git
 ```
 
 ## How to Use
