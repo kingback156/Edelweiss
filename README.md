@@ -3,7 +3,10 @@
 This project is an interactive web application that plays the song "Edelweiss" with synchronized musical notations. It allows users to control the playback of music and vocals independently, adjust volumes, and view progress through intuitive controls.
 
 ## Setup Instructions
-
+**Step 1:** Clone the repository:
+```
+git clone https://github.com/kingback156/Audio-analyse.git
+```
 
 ## How to Use
 -Play the Audio:
@@ -20,3 +23,6 @@ Reset:
 Click "Reset" to stop playback, reset progress bars, and return all controls to their default states.
 View Music Score:
 Click "Music score" to open the PDF of the musical score in a new tab.
+
+## Contact
+If you have any question, please feel free to contact me. E-mail: ltl030529@163.com.
