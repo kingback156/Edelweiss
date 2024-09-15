@@ -9,6 +9,9 @@ This project is an interactive web application that plays the song "Edelweiss" w
 ```
 git clone https://github.com/kingback156/Edelweiss.git
 ```
+**Step 2:** : Open the `main.html` file.
+
+**Step 3:** : Right click and click `Open in Browser`.
 
 ## How to Use
 -Play the Audio:
