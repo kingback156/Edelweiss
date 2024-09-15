@@ -3,6 +3,7 @@
 This project is an interactive web application that plays the song "Edelweiss" with synchronized musical notations. It allows users to control the playback of music and vocals independently, adjust volumes, and view progress through intuitive controls.
 
 ## Setup Instructions
+<span style="color:red">[IMPORTANT]</span>
 **Step 1:** Clone the repository:
 ```
 git clone https://github.com/kingback156/Edelweiss.git
