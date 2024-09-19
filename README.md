@@ -5,13 +5,13 @@ This project is an interactive web application that plays the song "Edelweiss" w
 ## Setup Instructions
 ![IMPORTANT](https://img.shields.io/badge/IMPORTANT-red) Because the file contains Chinese fonts, please save the files in `UTF-8`
 
-**Step 1:** Clone the repository:
+**Step 1.** Clone the repository:
 ```
 git clone https://github.com/kingback156/Edelweiss.git
 ```
-**Step 2:** : Open the `main.html` file.
+**Step 2.**  Open the `main.html` file.
 
-**Step 3:** : Right click and click `Open in Browser`.
+**Step 3.**  Right click and click `Open in Browser`.
 
 ## How to Use
 **1. Play the Audio:**
